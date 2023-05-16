@@ -1,0 +1,9 @@
+# bill.python
+def calculate():
+    try:
+        result = eval(input("Введите выражение: "))
+        print("Результат:", result)
+    except:
+        print("Ошибка при вычислении")
+
+calculate()
